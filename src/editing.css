@@ -34,7 +34,7 @@ color: #fff;
     margin-bottom: 20px;
     letter-spacing:1px;
     position: relative;
-    transform: translate(24%, 170%);
+    transform: translate(22%, 170%);
     z-index: 4;
     font-weight:900px;
 }
@@ -287,19 +287,19 @@ justify-content:center;
     gap:50px;
     font-family:limelight;
     font-size: 50px;
-    animation: slide 10s infinite linear;
+    animation: slide 12s infinite linear;
     width: 100vw;
 }
 .language{
-    transition: transform 1s ease;
+    transition: transform 0.3s ease;
     white-space:wrap;
 }
 @keyframes slide {
     0% { 
-        transform: translateX(10%);
+        transform: translateX(5%);
     }
     100% { 
-        transform: translateX(-59vw); 
+        transform: translateX(-70%); 
     }
   }
 
@@ -311,7 +311,7 @@ justify-content:center;
     font-size: 50px;
     margin-top:-30px;
     margin-bottom:-40px;
-    animation: slide 10s infinite linear;
+    animation: slide 12s infinite linear;
     width: 100vw;
 }
 .image{

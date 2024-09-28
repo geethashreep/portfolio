@@ -34,54 +34,9 @@ const languages = [
   { name: "JAVA" },
   { name: "PYTHON" },
   { name: "MYSQL" },
-  { name: "MONGODB" },
-  { name: "HTML" },
-  { name: "CSS" },
-  { name: "JAVASCRIPT" },
-  { name: "TYPESCRIPT" },
-  { name: "C" },
-  { name: "C++" },
-  { name: "JAVA" },
-  { name: "PYTHON" },
-  { name: "MYSQL" },
-  { name: "MONGODB" },{ name: "HTML" },
-  { name: "CSS" },
-  { name: "JAVASCRIPT" },
-  { name: "TYPESCRIPT" },
-  { name: "C" },
-  { name: "C++" },
-  { name: "JAVA" },
-  { name: "PYTHON" },
-  { name: "MYSQL" },
-  { name: "MONGODB" },{ name: "HTML" },
-  { name: "CSS" },
-  { name: "JAVASCRIPT" },
-  { name: "TYPESCRIPT" },
-  { name: "C" },
-  { name: "C++" },
-  { name: "JAVA" },
-  { name: "PYTHON" },
-  { name: "MYSQL" },
-  { name: "MONGODB" },{ name: "HTML" },
-  { name: "CSS" },
-  { name: "JAVASCRIPT" },
-  { name: "TYPESCRIPT" },
-  { name: "C" },
-  { name: "C++" },
-  { name: "JAVA" },
-  { name: "PYTHON" },
-  { name: "MYSQL" },
-  { name: "MONGODB" },{ name: "HTML" },
-  { name: "CSS" },
-  { name: "JAVASCRIPT" },
-  { name: "TYPESCRIPT" },
-  { name: "C" },
-  { name: "C++" },
-  { name: "JAVA" },
-  { name: "PYTHON" },
-  { name: "MYSQL" },
   { name: "MONGODB" }
 ];
+const repeatedLanguages = [].concat(languages, languages, languages, languages,languages,languages,languages);
 const frameworks=[
   {name:"REACTJS"},
   {name:"NODEJS"},
@@ -91,7 +46,8 @@ const frameworks=[
   {name:"WEBDEV"},
   {name:"GENAI"},
   {name:"GITHUB"}
-]
+];
+const repeatedframeworks = [].concat(frameworks, frameworks ,frameworks, frameworks,frameworks,frameworks,frameworks);
 
 function App() {
   return (
@@ -130,7 +86,7 @@ function App() {
 
     <p id="languages">SKILLS</p>
     <div className="languagebar">
-        {languages.map((language, index) => (
+        {repeatedLanguages.map((language, index) => (
           <div key={index} className="language">
             <p>{language.name}</p>
           </div>
@@ -139,7 +95,7 @@ function App() {
     </div>
 <div>
     <div className="frameworksbar">
-        {frameworks.map((framework, index) => (
+        {repeatedframeworks.map((framework, index) => (
           <div key={index} className="framework">
             <p>{framework.name}</p>
           </div>
