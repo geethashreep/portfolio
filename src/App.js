@@ -72,7 +72,7 @@ function App() {
         <li>
           Frontend Development</li>
           <li>FullStack Development</li>
-          <li>Machine Learning</li>
+          <li>Machine learning</li>
           <li>UI/UX designing</li></ul></div>
           <div class="border">
           <a href="/126157038 Geethasri.pdf" class="resume-icon">MORE ON MY RESUME</a></div>
