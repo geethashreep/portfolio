@@ -63,6 +63,7 @@ function App() {
       <div id ="container">
       <div><h1 id="Title">ABOUT</h1></div>
       <div><h2 id="intro">Hi ! I'm Geetha Shree</h2>
+      <div>
       <p id="intropara">I'm an UnderGrad student from SASTRA university, TamilNadu, pursuing Btech in ComputerScience.
         I thrive on challenges and am always seeking opportunities to innovate and create impactful solutions.
       I enjoy building sites and applications that look creative and work effictive. Here are some areas I am passionate about:
@@ -79,6 +80,7 @@ function App() {
       <a href="https://github.com/geethashreep" class="icon"><i class="fab fa-github"/></a>
       <a href="mailto:geethashreep@gmail.com" class ="eicon"><i class="fas fa-envelope"></i></a>
       <a href="https://www.linkedin.com/in/geetha-shree-1b534732a/" class="linked-icon"><i class="fab fa-linkedin-in"/></a>
+      </div>
       </div>
     </div>
     </div>

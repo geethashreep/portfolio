@@ -183,7 +183,7 @@ footer{
     margin-bottom:2px;
 }
 .bar{
-    background-color: #fff;
+    background-color: rgb(201, 201, 201);
     width:1050px;
     height:15px;
     border-radius: 10px;
@@ -191,9 +191,9 @@ footer{
     border:none;
 }
 .fill{
-    background-color: rgb(181, 111, 232);
+    background-color: rgb(97, 97, 97);
     height: 100%;
-    transition: width 5s ease;
+    border: none;
 }
 .skillbar{
     display: flex;
