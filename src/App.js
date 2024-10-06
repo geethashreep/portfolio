@@ -178,7 +178,7 @@ through plain English.</p>
 </div>
 
  
-<footer>Designed by: GeethaShree Pallapothu </footer>
+<footer>Designed by: GeethaShree Pallapothu🔥 </footer>
 </body>
   );
 }
