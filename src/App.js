@@ -75,7 +75,7 @@ function App() {
           <li>Machine learning</li>
           <li>UI/UX designing</li></ul></div>
           <div class="border">
-          <a href="/126157038 Geethasri.pdf" class="resume-icon">MORE ON MY RESUME</a></div>
+          <a href="/Geethashree Resume.pdf" class="resume-icon">MORE ON MY RESUME</a></div>
     <div class="social">
       <a href="https://github.com/geethashreep" class="icon"><i class="fab fa-github"/></a>
       <a href="mailto:geethashreep@gmail.com" class ="eicon"><i class="fas fa-envelope"></i></a>
@@ -162,7 +162,7 @@ evaluation, scorecard viewer, online discussion, and previous quiz analysis.</p>
   <div class="quanteon">
    <img id="logo" src={logo} alt="logo"/>
    <h6>Softwre Developer Intern</h6>
-   <p>May 2022 - July 2022</p>
+   <p>May 2024 - July 2024</p>
    <p>Worked as frontend engineer in Flowscript.ai project, a No-Code web development platform enabling app-building
 through plain English.</p>
   </div>
